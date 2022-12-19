@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div1{
+    width:36%;
+    height: 100vh;
+}
+
+.div2{
+    padding-top:25vh;
+}
+
+.inp{
+    margin-left:7%;
+    width:85%;
+    height:5vh;
+    border-bottom: 1px solid black;
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    outline:none;
+    font-size:2.5vh;
+}
+
+.icon{
+    font-size:3vh;
+    color: grey;
+    position: absolute;
+    left:31%;
+    padding-top:0.38%;
+}
+
+.div3{
+    margin-left:7%;
+    padding-top:8vh;
+}
+
+.h1{
+    font-size:4vh;
+}
+
+.icon1{
+    font-size:5vh;
+    margin-left:20.8%;
+    padding-top:0.3%;
+    position: absolute;
+}
+.icon2{
+    font-size:5vh;
+    margin-left:19.65%;
+    padding-top:0.3%;
+    position: absolute;
+}
+.icon3{
+    font-size:5vh;
+    margin-left:16%;
+    padding-top:0.3%;
+    position: absolute;
+}
+
+    
+.li-style{
+    list-style: none;
+    font-size:2vh;
+    padding-top:1%;
+}
+
+.li-none{
+    display: none;
+}
+
+
+.d-none{
+    display: inline;
+}
+
+.hr{
+    margin-left:7.3%;
+    width:85%;
+    margin-top:5%;
+}
+
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+.div4{
+    width:65%;
+    height:100vh;
+    background-color: #ebedf0;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    padding-top:35vh;
+    margin-left:7%;
+}
+
+.button{
+    color: #343087;
+    font-size:2vh;
+    margin-top:1.5%;
+    width:4.5%;
+    height:6vh;
+    border-radius:50%;
+    border: none;
+    background-color: white;
+}
+
+.hover:hover{
+    background-color: #343087;
+    color: white;
+    cursor: pointer;
+}
+.active{
+    background-color: #343087;
+    color: white;
+}
+
+.img{
+    width:40%;
+    height: auto;
+    margin-left:15%;
+    position: absolute;
+    top:30vh;
+}
+
+
+
+.btn2{
+    padding-top:5%;
+    margin-left:52%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.button1{
+    color: #343087;
+    font-size:3.5vh;
+    margin-top:1.5%;
+    width:10%;
+    height:6vh;
+    border-radius:50%;
+    background-color: white;
+    border-color: #343087;
+}
+
+.right{
+    margin-right:3.5%;
+}
+.scale{
+
+    transform: scale(1.8);
+}
+
+.d-none{
+    display: inline;
+}
